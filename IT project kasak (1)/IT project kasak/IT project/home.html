@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Kavya School</title>
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #0a6c7d;
+      color: #f0eaea;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      margin-bottom: 10px;
+      font-weight: normal;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    ul, ol {
+      padding-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #0f0437;
+      text-decoration: none;
+      transition: color 0.3s ease;
+    }
+
+    a:hover {
+      color: #0a042d;
+    }
+
+    /* Navigation Styles */
+    #nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #137a91;
+      color: #d4d2dc;
+      padding: 10px 20px;
+    }
+
+    #nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 5px 10px;
+    }
+
+    #nav a:hover {
+      background-color: #13a5df;
+    }
+
+    /* Content Styles */
+    #content {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .banner {
+      background-image: url('banner.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      font-size: 2rem;
+    }
+
+    /* Grid Layout for Content */
+    .content-section {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+      margin-bottom: 20px;
+    }
+
+    .content-item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+      background-color: #0b4e63;
+      border-radius: 8px;
+    }
+
+    .content-item img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <!-- Navigation Section -->
+  <nav id="nav">
+    <div class="container">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="facilities.html">Facilities</a>
+      <a href="contact.html">Contact</a>
+      <a href="courses.html">Courses</a>
+      <a href="eca.html">ECA</a>
+    </div>
+  </nav>
+
+  <!-- Content Section -->
+  <div id="content">
+
+    <!-- Banner Section -->
+    <div class="banner">
+      <h1>Welcome to Kavya School</h1>
+    </div>
+
+    <!-- Home Page Content -->
+    <h1 align="center">Home Page</h1>
+    <p>Welcome to Kavya School, where we provide a comprehensive education for grades I through X. Our school is dedicated to nurturing students' development in emotional, social, physical, moral, and spiritual aspects. We offer a holistic environment that encourages students to learn, grow, and excel in a safe and supportive community.</p>
+
+    <!-- Content Section with Grid Layout -->
+    <div class="content-section">
+      <div class="content-item">
+        <img src="1.jpg" alt="School Photo 1">
+        <h3>Experienced Teachers</h3>
+        <p>Our dedicated teachers use innovative teaching methods to engage students and inspire learning.</p>
+      </div>
+
+      <div class="content-item">
+        <img src="6.jpg" alt="School Photo 2">
+        <h3>State-of-the-Art Facilities</h3>
+        <p>Our modern campus includes well-equipped classrooms, science labs, and sports facilities.</p>
+      </div>
+
+      <div class="content-item">
+        <img src="3.jpg" alt="School Photo 3">
+        <h3>Inclusive Environment</h3>
+        <p>We embrace diversity and create a welcoming atmosphere for all students and staff.</p>
+      </div>
+
+      <div class="content-item">
+        <img src="2.jpg" alt="School Photo 4">
+        <h3>Extracurricular Activities</h3>
+        <p>Our school offers a variety of extracurricular activities, including sports, music, and arts.</p>
+      </div>
+    </div>
+
+    <p>At Kavya School, we pride ourselves on our commitment to academic excellence and personal growth. Our experienced staff and dedicated teachers work together with parents to create a positive learning environment for all students.</p>
+    
+    <p>Explore our website to learn more about our facilities, courses, and extracurricular activities, or feel free to reach out through our contact page for any questions you may have.</p>
+
+  </div>
+
+</body>
+
+</html>
